@@ -58,7 +58,7 @@ job = "teacher";
 
 lastName = "Nowacki";
 console.log(lastName);
-*/
+
 
 // Math operators
 const now = 2037;
@@ -87,3 +87,45 @@ console.log(agePaulina >= 18);
 
 const isFullAge = agePaulina >= 18;
 console.log(now - 1991 > now - 2018);
+
+
+const now = 2037;
+const ageFrederic = now - 1991;
+const agePaulina = now - 2018;
+
+console.log(now - 1991 > now - 2018);
+
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 10, x = 10
+console.log(x, y);
+
+const averageAge = (ageFrederic + agePaulina) / 2;
+console.log(ageFrederic, agePaulina);
+
+const firstName = "Frederic";
+const job = "Analyst";
+const birthYear = 1992;
+const year = 2037;
+
+const frederic =
+  "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + "!";
+
+console.log(frederic);
+
+const fredericNew = `I'm ${firstName}, a ${year - birthYear} years ols ${job}!`;
+
+console.log(fredericNew);
+
+console.log(`Just a regular string.`);
+console.log("String with \n multiple \n lines");
+console.log(`String
+multiple
+lines`);
+*/
+
+const age = 19;
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+  console.log("Sarah can start driving license");
+}
