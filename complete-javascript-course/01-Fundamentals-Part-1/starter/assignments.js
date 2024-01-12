@@ -1,8 +1,8 @@
-/* //Values and Variables
+//Values and Variables
 
 let country = "Poland";
 let continent = "Europe";
-let population = 37.75;
+let population = 130;
 
 let isIsland = false;
 const language = "polisch";
@@ -39,4 +39,11 @@ console.log(description);
 const descriptionNew = `${country} is in ${continent}, and its ${population} million people speak ${language}.`;
 
 console.log(descriptionNew);
- */
+
+if (population > averagePop) {
+  console.log(
+    `${country}'s population is ${
+      averagePop - population
+    } million below average`
+  );
+}
