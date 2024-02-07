@@ -1,5 +1,5 @@
-/* //Values and Variables
-
+/* 
+//Values and Variables
 let country = "Poland";
 let continent = "Europe";
 let population = 130;
@@ -7,12 +7,14 @@ let population = 130;
 let isIsland = false;
 const language = "polisch";
 
+// Data Types
 console.log(typeof country);
 console.log(typeof continent);
 console.log(typeof population);
 console.log(typeof isIsland);
 console.log(typeof language);
 
+// Basic Operators
 let halfPop = population / 2;
 console.log(halfPop);
 halfPop++;
@@ -36,10 +38,12 @@ const description =
 
 console.log(description);
 
+// Strings and Templates Literals
 const descriptionNew = `${country} is in ${continent}, and its ${population} million people speak ${language}.`;
 
 console.log(descriptionNew);
 
+// Taking Decisions: if / else Statements
 if (population > averagePop) {
   console.log(
     `${country}'s population is ${
@@ -47,9 +51,13 @@ if (population > averagePop) {
     } million below average`
   );
 }
- */
+
+// Type Conversion and Coercion
 console.log("9" - "5"); // -> 4
 console.log("19" - "13" + "17"); // -> '617'
 console.log("19" - "13" + 17); // -> 23
-console.log("123" < 57); // -> 123
-console.log(5 + 6 + "4" + 9 - 4 - 2); // -> ?
+console.log("123" < 57); // -> false
+console.log(5 + 6 + "4" + 9 - 4 - 2); // -> 1143
+*/
+
+//Equality Operators: == vs. ===
