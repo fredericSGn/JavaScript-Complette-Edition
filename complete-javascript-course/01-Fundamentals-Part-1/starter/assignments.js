@@ -87,9 +87,8 @@ if (engCountry && lessThan50 && !isIsland) {
 } else {
   console.log("Good luck next time...");
 }
-*/
-// The switch Statement
 
+// The switch Statement
 const language = "polish";
 switch (language) {
   case "chinese":
@@ -112,3 +111,17 @@ switch (language) {
     console.log("Great language too :D");
     break;
 }
+*/
+
+// The Conditional(Ternary) Operator
+const polandPopulation = 32;
+const country = "Poland";
+polandPopulation > 33
+  ? console.log(`Portugal's population is above average`)
+  : console.log(`Portugal's population is below average`);
+
+console.log(
+  `${country}'s population is ${
+    polandPopulation > 33 ? "above" : "below"
+  } average`
+);
