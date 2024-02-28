@@ -76,4 +76,15 @@ if (numNeighbours === 1) {
 } else {
   console.log("No borders");
 }
+
+//Logical Operators
+const engCountry = true;
+const lessThan50 = true;
+const isIsland = false;
+
+if (engCountry && lessThan50 && !isIsland) {
+  console.log("Welcome on board!");
+} else {
+  console.log("Good luck next time...");
+}
 */
