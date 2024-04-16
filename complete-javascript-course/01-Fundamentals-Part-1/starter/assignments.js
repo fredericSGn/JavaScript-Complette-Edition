@@ -111,7 +111,7 @@ switch (language) {
     console.log("Great language too :D");
     break;
 }
-*/
+
 
 // The Conditional(Ternary) Operator
 const polandPopulation = 32;
@@ -125,3 +125,20 @@ console.log(
     polandPopulation > 33 ? "above" : "below"
   } average`
 );
+
+
+const bill = 275;
+
+//Write your code below. Good luck! 🙂
+
+const tip = 1.15;
+const tip20 = 1.2;
+
+const sume = bill >= 50 && bill < 300 ? bill * tip : bill * tip20;
+console.log(sume);
+
+console.log(
+  `The bill was ${bill}, the tip was ${
+    sume - bill
+  }, and the total value ${sume}`
+); */
