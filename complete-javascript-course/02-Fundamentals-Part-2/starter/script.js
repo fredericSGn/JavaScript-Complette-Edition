@@ -1,12 +1,13 @@
 /* "use strict";
 
+/// Functions
 let hasDriversLicense = false;
 const passTest = true;
 
 if (passTest) hasDriversLicense = true;
 if (hasDriversLicense) console.log(`I can drive :D`);
 hasDriversLicense ? console.log(`I can't Drive`) : "";
-*/
+
 //const interface = `Audio`;
 //const private = 534;
 //const if = 23;
@@ -41,3 +42,24 @@ console.log(fruitMixer(3, 10));
 const drink1 = fruitMixer(4, 5);
 
 console.log(drink1);
+
+/// Functions Declarations vs. Expressions
+
+//Function Declaration (Hoisting) Można wezwać funkcje zanim się ją zdeklaruje
+
+const age1 = calcAge1(1992);
+
+function calcAge1(birthYear) {
+  return 2037 - birthYear;
+}
+
+console.log(age1);
+
+//Function Expression
+const calcAge2 = function (birthYear) {
+  return 2037 - birthYear;
+};
+
+const age2 = calcAge2(1992);
+console.log(age1, age2);
+*/
